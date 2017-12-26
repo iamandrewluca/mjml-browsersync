@@ -1,0 +1,34 @@
+{
+  "name": "mjml-browsersync",
+  "version": "1.0.0",
+  "description": "MJML email templating using BrowserSync livereload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamandrewluca/mjml-browsersync.git"
+  },
+  "keywords": [
+    "MJML",
+    "BrowserSync",
+    "Livereload",
+    "email"
+  ],
+  "author": "Andrew Luca <thendrluca@gmail.com> (https://iamandrewluca.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamandrewluca/mjml-browsersync/issues"
+  },
+  "homepage": "https://github.com/iamandrewluca/mjml-browsersync#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.21.0",
+    "gulp": "^3.9.1",
+    "gulp-mjml": "^2.3.0"
+  }
+}
