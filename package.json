@@ -19,7 +19,7 @@
     "email"
   ],
   "author": "Andrew Luca <thendrluca@gmail.com> (https://iamandrewluca.com)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/iamandrewluca/mjml-browsersync/issues"
   },
