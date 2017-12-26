@@ -1,6 +1,7 @@
 import gulp from 'gulp'
 import browserSync from 'browser-sync'
 import mjml from 'gulp-mjml'
+import plumber from 'gulp-plumber'
 
 gulp.task('browsersync', ['build'], function() {
     return browserSync.init({
@@ -14,6 +15,7 @@ gulp.task('browsersync', ['build'], function() {
 gulp.task('mjml', () => {
     return gulp
         .src('./src/**/*.mjml')
+        .pipe(plumber())
         .pipe(mjml())
         .pipe(gulp.dest('./dist'))
 })
